@@ -4,3 +4,6 @@
 .Ruserdata
 rsconnect/
 stockChart.Rproj
+.Rdata
+.httr-oauth
+.DS_Store
