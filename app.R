@@ -20,12 +20,16 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel("Select stock",
-            selectInput("stock",
+            selectInput("selectedStock",
                         label = "Stock",
                         choices = c("Apple"="AAPL", "Cisco"="CSCO",
                                     "IBM"="IBM", "Facebook"="FB",
                                     "Twitter"="TWTR", "Microsoft"="MSFT",
-                                    "Google"="GOOG"))
+                                    "Google"="GOOG")),
+            dateRangeInput('dateRange',
+                           label = paste('Date range:'),
+                           start = Sys.Date() - 200, end = Sys.Date(),
+                           separator = " - "),
         ),
         # Show a plot of the generated distribution
         mainPanel("Stock Chart",
@@ -38,12 +42,17 @@ ui <- fluidPage(
 server <- function(input, output) {
 
     output$stockchart <- renderPlot({
-        stockdata <- getSymbols(input$stock, src = "yahoo",
-                                from = "2017-01-01",
-                                to = "2017-08-21",
+        stockdata <- getSymbols(input$selectedStock, src = "yahoo",
+                                from = input$dateRange[1],
+                                to = input$dateRange[2]+1,
                                 auto.assign = FALSE)
-        candleChart(stockdata, name=input$stock)
+        candleChart(stockdata, name=input$selectedStock)
     })
+    
+    output$dateRangeText  <- renderText({
+        paste(as.character(input$dateRange))
+    })
+    
 }
 
 # Run the application 
