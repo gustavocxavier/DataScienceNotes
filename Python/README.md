@@ -1,5 +1,4 @@
 # Getting Started with Python
------------------------------
 
 ## What is Python?
 Python is a scripting language. It can be used to write very simple scripts or automations, as well as highly complex applications. Some example applications built with Python include Youtube, Reddit, Instagram and Pinterest.
