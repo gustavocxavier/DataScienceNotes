@@ -17,3 +17,8 @@ Getting Started with R & RStudio
 - [R for Data Science](http://r4ds.had.co.nz/) (Garret Grolemund & Hadley Wickham)
 - [RStudio Online learning](https://www.rstudio.com/online-learning/)
 - Online Courses (e.g. [Coursera](https://www.coursera.org/courses?languages=en&query=R), [Dataquest](https://www.dataquest.io/), [Lynda.com](https://www.lynda.com/), or [Datacamp](https://www.datacamp.com/learn/r-programming))
+
+## Statistics and Econometrics in R
+
+- [Learning Statistics with R](https://learningstatisticswithr.com/)
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
