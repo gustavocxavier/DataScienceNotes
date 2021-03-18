@@ -23,7 +23,13 @@ Getting Started with R & RStudio
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
 
-## About R packages and contributions (Advanced Level)
- 
+## Advanced R
+
+### E-books
+- https://r-pkgs.org/
+- https://adv-r.hadley.nz/
+- http://advanced-r-solutions.rbind.io/
+
+### About R packages and contributions 
 - [Contributing code to the tidyverse](https://www.tidyverse.org/blog/2017/08/contributing/)
 - [R GitHub Actions](https://www.jimhester.com/talk/2020-rsc-github-actions/)
