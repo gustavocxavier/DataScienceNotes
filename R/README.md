@@ -26,10 +26,10 @@ Getting Started with R & RStudio
 ## Advanced R
 
 ### E-books
-- https://r-pkgs.org/
 - https://adv-r.hadley.nz/
 - http://advanced-r-solutions.rbind.io/
 
 ### About R packages and contributions 
 - [Contributing code to the tidyverse](https://www.tidyverse.org/blog/2017/08/contributing/)
 - [R GitHub Actions](https://www.jimhester.com/talk/2020-rsc-github-actions/)
+- https://r-pkgs.org/
