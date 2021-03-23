@@ -32,3 +32,7 @@ A few on-line resources for getting started are:
 - [Free Course Kaggle/Datacamp Python Tutorial on Machine Learning](https://www.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning)
 
 Creating a [Stack Overflow account](https://stackoverflow.com/) can be useful. When you get stuck it is very likely someone else has already experienced either your specific problem or something similar and has documented it there. After creating your account you can also subscribe to the 'Python' tag, allowing you to answer questions other people have.
+
+## DataScience
+
+- [Elements of Data Science in Python](https://allendowney.github.io/ElementsOfDataScience/index.html)
