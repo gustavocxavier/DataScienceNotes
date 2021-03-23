@@ -23,6 +23,11 @@ Getting Started with R & RStudio
 - [Learning Statistics with R](https://learningstatisticswithr.com/)
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
 
+## Text mining in R
+
+- [Text mining with tidy data principles](https://juliasilge.shinyapps.io/learntidytext/#section-introduction)
+- [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)
+
 ## Advanced R
 
 ### E-books
