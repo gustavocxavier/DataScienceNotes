@@ -35,4 +35,5 @@ Creating a [Stack Overflow account](https://stackoverflow.com/) can be useful. W
 
 ## DataScience
 
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Elements of Data Science in Python](https://allendowney.github.io/ElementsOfDataScience/index.html)
