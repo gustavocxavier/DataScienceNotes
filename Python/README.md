@@ -37,3 +37,7 @@ Creating a [Stack Overflow account](https://stackoverflow.com/) can be useful. W
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Elements of Data Science in Python](https://allendowney.github.io/ElementsOfDataScience/index.html)
+
+## Data Visualization
+
+- [Using ggplot in Python: Visualizing Data With plotnine](https://realpython.com/ggplot-python/)
